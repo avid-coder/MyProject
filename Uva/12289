@@ -1,0 +1,32 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int n;
+    cin >> n;
+    while(n--) {
+        string word;
+        cin >> word;
+        int k = 0, count;
+        vector <string> v = {"one", "two", "three"}; 
+        for(int i = 0; i < v.size(); i++) {
+            count = 0, k = 0;
+            if(v[i].size() == word.size()) {
+                for(int j = 0; j < v[i].size(); j++) {
+                    if(v[i][j] != word[k++]) {
+                        count++;
+                        if(count > 1) {
+                            break;
+                        }
+                    }
+                }
+                if(count <= 1) {
+                    cout << i + 1 << endl;
+                }
+            }
+            
+        }
+    }
+    return 0;
+}
+
