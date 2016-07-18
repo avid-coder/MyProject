@@ -1,28 +1,257 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>SONAL PRASHER</title>
-<link rel="stylesheet" type="text/css" href="style.css" />
-<link rel="stylesheet" type="text/css" href="bootstrap.css" />
-<link rel="stylesheet" type="text/css" href="bootstrap.min.css" />
+<link rel="stylesheet" type="text/css" href="mystyle.css"/>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </head>
-<body id="home" >
-<main class = "container foldtl">
-<img src="logo2.png" class="img-responsive" style="height:150px;width:500px; margin: 0 auto"/>
-
-<div class = "btn-group btn-group-justified">
-<a href="#home" class = "btn btn-primary" > Home</a>
-<a href="#edu" class = "btn btn-primary" > Educational Qualifications</a>
-<a href="#skill" class = "btn btn-primary" > Skills</a>
-<a href="#exp" class = "btn btn-primary" > Experience & Project Work</a>
-<a href="#extra" class = "btn btn-primary" >Extra Curricular</a>
-<a href="#contact" class = "btn btn-primary" > Contact</a>
+<body>
+<div class="letter" id="divit">
+	<img src="mainlogo.png" class="img-responsive center-block" style="width:auto;"/><br/><br/>
+    <main class="container">
+<ul class="nav nav-tabs" style="border-bottom:0px">
+    <li class="active"><a data-toggle="tab" href="#home">Home &#9792;</a></li>
+    <li><a data-toggle="tab" href="#edu">Education &#9998;</a></li>
+    <li><a data-toggle="tab" href="#tech">Technical Skills &#10004;</a></li>
+    <li><a data-toggle="tab" href="#train" >Training & Projects &#9874;</a></li>
+    <li><a data-toggle="tab" href="#extra">Co-Curricular &#9918;</a></li>
+    <li><a data-toggle="tab" href="#contact">Contact &#9993;</a></li>
+  </ul>
+  
+  <div class="tab-content" >
+  
+  <!-- home / about me -->
+  
+    <div id="home" class="tab-pane fade in active margins">
+      <img src="mypic.jpg" class="img-responsive img-circle col-lg-3 col-md-4 col-sm-6 col-xs-12" id="mainpic" />
+      <br/><br/>
+      <p class="text-nowrap mytext col-lg-8 col-md-8 col-sm-8 col-xs-8 animated bounceInRight" id=" animated-example"  >&#10077;Hey There! <br/>
+      &nbsp;&nbsp;I am <font color="#3366FF">Sonal Prasher</font>.<br/>
+      &nbsp;&nbsp;I'm looking forward to share a small space <br/>
+      &nbsp;&nbsp;in the world of Programming & Technology <br/>
+      &nbsp;&nbsp;only to make a huge difference.&#10078;
+      
+      </p>
+      
+    </div>
+    
+    <!-- educational qualifications-->
+    
+    <div id="edu" class="tab-pane fade" >
+      <h3>Education</h3>
+      <div class="tablediv  animated fadeInUp" id=" animated-example">
+      <table class="table mytable table-responsive table-bordered">
+      <thead style="color:#3366FF">
+      <tr>
+      	<td> Qualification</td>
+        <td> College</td>
+        <td> Board/University</td>
+        <td> Year of Passing</td>
+        <td> Percentage</td>
+      </tr>
+      </thead>
+      <tbody>
+      <tr>
+      	<td> Master Of Computer Applications</td>
+        <td>Indira Gandhi Delhi Technical University For Women</td>
+        <td>Indira Gandhi Delhi Technical University For Women</td>
+        <td>2016</td>
+        <td>82.50%</td>
+       </tr>
+       <tr>
+      	<td> Bachelor Of Physical Science</td>
+        <td>Deen Dayal Upadhyaya College</td>
+        <td>University of Delhi</td>
+        <td>2013</td>
+        <td>78.33%</td>
+       </tr>
+       <tr>
+      	<td> Class 12th</td>
+        <td>Mother Teresa Public School</td>
+        <td>Central Board Of Secondary Education</td>
+        <td>2010</td>
+        <td>73.40%</td>
+       </tr>
+       <tr>
+      	<td> Class 10th</td>
+        <td>Mother Teresa Public School</td>
+        <td>Central Board Of Secondary Education</td>
+        <td>2008</td>
+        <td>91.20%</td>
+       </tr>
+      </tbody>
+      </table>
+      </div>
+      </div>
+      
+      <!-- technical skills -->
+      
+    <div id="tech" class="tab-pane fade">
+      <h3>Technical Skills</h3>
+      <div class="tablediv animated fadeInUp" id=" animated-example">
+      <table class="table mytable table-responsive">
+      <tr>
+      	<td> Programming Languages<br/><br/>
+			<div class="progress" style="width:90%;float:left;position:relative;">
+			<div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="40"
+  			aria-valuemin="0" aria-valuemax="100" style="width:85%">C/C++</div></div><div class="clearfix"></div>
+			<div class="progress" style="width:90%;float:left;">
+			<div class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar " aria-valuenow="40"
+  			aria-valuemin="0" aria-valuemax="100" style="width:85%">PHP</div></div><div class="clearfix"></div>
+			<div class="progress" style="width:90%;float:left;">
+			<div class="progress-bar  progress-bar-striped active" role="progressbar" aria-valuenow="40"
+  			aria-valuemin="0" aria-valuemax="100" style="width:50%;background-color: #FC0">Python</div></div><div class="clearfix"></div>
+            <p>Database</p>
+			<div class="progress" style="width:90%;float:left;">
+			<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="40"
+  			aria-valuemin="0" aria-valuemax="100" style="width:87%; background-color: #06F">MySQL</div></div><div class="clearfix"></div>
+  			<p>Other Skills</p>
+			<div class="progress" style="width:90%;float:left;">
+			<div class="progress-bar progress-bar-danger progress-bar-striped active" role="progressbar" aria-valuenow="40"
+  			aria-valuemin="0" aria-valuemax="100" style="width:70%">Search Engine Optimisation</div></div><div class="clearfix"></div>
+            </td>
+  		<td>
+        	Web Development Languages<br/><br/>
+			<div class="progress" style="width:90%;float:left;">     
+			<div class="progress-bar progress-bar-danger progress-bar-striped active" role="progressbar" aria-valuenow="40"
+  			aria-valuemin="0" aria-valuemax="100" style="width:75%">JavaScript</div></div><div class="clearfix"></div>
+			<div class="progress" style="width:90%;float:left;">
+			<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="40"
+  			aria-valuemin="0" aria-valuemax="100" style="width:80%; background-color:#C3C">HTML</div></div><div class="clearfix"></div>
+			<div class="progress" style="width:90%;float:left;">
+			<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="40"
+  			aria-valuemin="0" aria-valuemax="100" style="width:75%;background-color: #F60">CSS</div></div><div class="clearfix"></div>
+            <!--<div class="progress" style="width:90%;float:left;">
+            <div class="progress-bar" role="progressbar" aria-valuenow="40"
+  			aria-valuemin="0" aria-valuemax="100" style="width:75%;background-color: #F6C">JQuery</div></div><div class="clearfix"></div>-->
+        	<p>Frameworks</p>
+			<div class="progress" style="width:90%;float:left;position:relative;">
+			<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="40"
+  			aria-valuemin="0" aria-valuemax="100" style="width:68%; background-color:  #99F;">CodeIgniter</div></div><div class="clearfix"></div>
+			<div class="progress" style="width:90%;float:left;">
+			<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="40"
+  			aria-valuemin="0" aria-valuemax="100" style="width:69%; background-color:#600">Bootstrap</div></div><div class="clearfix"></div>
+            
+  			
+  		</td>
+  	</tr>
+	</table>
 </div>
-<div class="jumbotron ">
-<!--<a href="#"><img src="sandal4.jpg" class="img-responsive img-circle" style="height:200px;width:200px; margin: 0 auto"/></a>-->
-
 </div>
+
+<!-- Training & Projects -->
+
+<div id="train" class="tab-pane fade" id="animated-example" class="animated bounceInRight">
+      <h3>Training & Projects</h3>
+      <div class="tablediv animated fadeInUp" id=" animated-example" >
+      <table class="table mytable table-responsive">
+      <tr><td>
+      <ul class="mylist">
+      	<li style="color:#3366FF">Online Book Bid (Jan 2016 – May 2016)
+      		<ul style="color:black; text-align:left;">
+      			<li>Web application for auctioning of books.</li>
+				<li>Front End: HTML 5, CSS 3, JavaScript, JQuery.</li>
+				<li>Back End: PHP 5.0.</li>
+				<li>Database: MySQL.</li>
+			</ul>
+         </li>
+       </ul>
+       </td>
+        <td>
+       <ul class="mylist">
+      	<li style="color:#3366FF">Big Commerce (Feb 2016 – July 2016)) 
+      		<ul style="color:black;text-align:left">   			
+				<li>Web Development Certification covering Ecommerce website development.</li>
+                <li>Web Designing: HTML5, CSS3, JavaScript, Bootsrap.</li>
+                <li>Back End Web Development: PHP5, MySQL, Code Igniter, Wordpress, Joomla.</li>
+                <li>Search Engine Optimiation.</li>
+			</ul>
+         </li>
+       </ul></td>
+       
+       </tr>
+       <tr>
+       <td>
+       <ul class="mylist">
+      	<li style="color:#3366FF;">Online Course On Programming for Everybody (Python), University of Michigan (2015)
+      		<ul >   			
+				<li style="color:black;text-align:left">Instructor: Dr. Charles Severance Clinical Assistant Professor.</li>
+			</ul>
+         </li>
+       </ul>
+     
+       <ul class="mylist">
+      	<li style="color:#3366FF">Workshop on Cloud Computing <br/>(March 2014)
+      		<ul style="color:black;text-align:left">   			
+				<li>Organized by Orbus.</li>
+			</ul>
+         </li>
+       </ul>
+       </td>
+       <td>
+       <ul class="mylist">
+      	<li style="color:#3366FF;">Online Application For Temporary Pass Generation (June 2014 – July 2014)
+      		<ul style="color:black;text-align:left">
+      			<li>Intern at Recruitment And Assessment Center DRDO, Ministry Of Defence, New Delhi.</li>
+				<li>Front End: HTML, CSS, JavaScript.</li>
+				<li>Back End: PHP.</li>
+				<li>Database: MySQL.</li>
+			</ul>
+         </li>
+       </ul></td>
+       </tr>
+       </table>
+       </div>
+    </div>
+    
+    <!-- Extra curricular-->
+    
+    <div id="extra" class="tab-pane fade">
+      <h3>Co-Curricular</h3>
+      <div class="tablediv2 animated fadeInUp" id=" animated-example">
+   		 <table class="table mytable table-responsive">
+      <tr><td style="text-align:left">
+      Creative Team Coordinator in ESPECTRO'15, Annual Technical Fest, ACM Student Chapter.
+       </td></tr>
+       <tr>
+        <td style="text-align:left">
+       Desk Event Coordinator in ESPECTRO'14, Annual Technical Fest, ACM Student Chapter.</td>
+       </tr>
+       <tr>
+       <td style="text-align:left;">
+       Technology Blog <a href="http://www.thegeekylogic.wordpress.com">TheGeekyLogic.</a></td>
+       </tr>
+       </table>
+       </div>
+    </div>
+    
+    <!-- contact-->
+    <div id="contact" class="tab-pane fade">
+      <h3>Contact</h3>
+      <br/>
+       <p style="color:#3366FF;font-size:18px"> I love to work, so don't be shy, i am just an email away.</p>
+       <p class="mytext"><font size="20pt" color="red">&#9993;</font>
+       sonalprasher92&#64;gmail.com</p>
+      <div id="animated-example" class="animated bounceIn" >
+		<a href="https://plus.google.com/u/0/117848231240353543327" style="text-decoration:none;font-size:18px;color:black">
+        <i class="fa fa-google-plus-square" style="font-size:48px;color:red"></i>&nbsp;&nbsp;&nbsp;&nbsp;Google+</a><br/>
+     	<a href="https://www.linkedin.com/in/sonalprasher" style="text-decoration:none;font-size:18px;color:black">
+        <i class="fa fa-linkedin-square" style="font-size:48px;color: #036"></i>
+        &nbsp;&nbsp;&nbsp;&nbsp;LinkedIn</a><br/>
+        <a href="https://en.gravatar.com/sonalprasher" style="text-decoration:none;font-size:18px;color:black">
+        <i class="fa fa-wordpress" style="font-size:48px;color: #069"></i>
+        &nbsp;&nbsp;&nbsp;Worpress</a>
+      </div>
+      </div>
+    
+  </div>
 </main>
+  </div>
+
 </body>
 </html>
